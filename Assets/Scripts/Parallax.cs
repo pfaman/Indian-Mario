@@ -26,7 +26,7 @@ public class Parallax : MonoBehaviour
         {
             Transform z = middleBG;
             middleBG = sideBG;
-            sideBG = z;
+            sideBG = z; 
         }
         
     }
