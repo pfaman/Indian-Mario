@@ -78,7 +78,7 @@ GameObject:
   - component: {fileID: 8277999195157780943}
   - component: {fileID: 4238452482779246575}
   - component: {fileID: 5271128843638495244}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Player04
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -253,6 +253,7 @@ MonoBehaviour:
   jumpForce: 8
   playerRB: {fileID: 2528664388541605884}
   animator: {fileID: 3975039326306734635}
+  isFacingRight: 1
   groundCheck: {fileID: 8639042366271946950}
   groundLayer:
     serializedVersion: 2
@@ -284,3 +285,4 @@ MonoBehaviour:
   animator: {fileID: 3975039326306734635}
   bullet: {fileID: 8977382807011346979, guid: 8718dee14d0b4b7449b2a904d12d5645, type: 3}
   bulletHole: {fileID: 8078629892730735532}
+  bulletForce: 300

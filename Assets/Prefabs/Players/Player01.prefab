@@ -46,7 +46,7 @@ GameObject:
   - component: {fileID: 5226304877678386231}
   - component: {fileID: 8650789594146684798}
   - component: {fileID: 2717190714393792235}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Player01
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -111,7 +111,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 6
   m_Sprite: {fileID: 1413456144, guid: 445f456e4b154514898d79d71b55c05f, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.39215687}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -220,6 +220,7 @@ MonoBehaviour:
   jumpForce: 8
   playerRB: {fileID: 1976901337902422451}
   animator: {fileID: 1622951853227070149}
+  isFacingRight: 1
   groundCheck: {fileID: 3366829820467133192}
   groundLayer:
     serializedVersion: 2

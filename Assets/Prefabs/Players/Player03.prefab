@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 2712546223961962494}
   - component: {fileID: 2886131365890109480}
   - component: {fileID: 1471281945855342038}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Player03
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -189,6 +189,7 @@ MonoBehaviour:
   jumpForce: 8
   playerRB: {fileID: 3525073589017696743}
   animator: {fileID: 1649277465894480997}
+  isFacingRight: 1
   groundCheck: {fileID: 2035966775673367333}
   groundLayer:
     serializedVersion: 2

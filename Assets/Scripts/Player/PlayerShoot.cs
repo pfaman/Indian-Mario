@@ -22,6 +22,10 @@ public class PlayerShoot : MonoBehaviour
 
     public void Fire()
     {
+        Debug.Log("speed" + animator.GetFloat("speed"));
+        if(animator.GetFloat("speed")> 0.1f)
+            return;
+        AudioManager.instance.Play("Shoot");
         animator.SetTrigger("shoot");
         GameObject go= Instantiate(bullet, bulletHole.position, bullet.transform.rotation);
         if (GetComponent<PlayerMovement>().isFacingRight)
